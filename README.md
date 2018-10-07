@@ -1,6 +1,6 @@
 # IsometricUi
 
-#Installation guide
+# Installation Guide
 
 This project was developed using Angular 6
 
