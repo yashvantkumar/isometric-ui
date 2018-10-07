@@ -1,0 +1,24 @@
+<div class="main">
+  <nav>
+      <div id="center" class="btn" (click)="open()" [ngClass]="{'close': isOpened}">
+          <div class="icon">
+              <div class="menu top"></div>
+              <div class="menu middle"></div>
+              <div class="menu bottom"></div>
+          </div>
+      </div>
+ 
+      <div id="up" class="btn item" [ngClass]="{'opened': isOpened}">
+          <span>Contacts</span>
+      </div>
+      <div id="right" class="btn item" [ngClass]="{'opened': isOpened}">
+          <span>About</span>
+      </div>
+      <div id="bottom" class="btn item" [ngClass]="{'opened': isOpened}">
+          <span>Widgets</span>
+      </div>
+      <div id="left" class="btn item" [ngClass]="{'opened': isOpened}">
+          <span>Home</span>
+      </div>
+  </nav>
+</div>
